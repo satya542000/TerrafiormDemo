@@ -16,6 +16,9 @@ resource "aws_internet_gateway" "my_igw" {
     aws_vpc.my_vpc
   ]
 }
+#comment1
+
+#comment2
 
 # # Create a default route table and associate it with the VPC
 resource "aws_default_route_table" "my_rt" {
