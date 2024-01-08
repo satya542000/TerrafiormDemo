@@ -5,7 +5,7 @@ resource "aws_vpc" "my_vpc" {
   cidr_block = var.vpc_cidr_block
   tags = var.tags
 }
-
+#this is a comment
 # Create an internet gateway and attach it to the VPC
 resource "aws_internet_gateway" "my_igw" {
   vpc_id = aws_vpc.my_vpc.id
